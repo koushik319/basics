@@ -16,10 +16,17 @@ import Destructclassprop from './components/Destructclassprop';
 import ClassClick from './components/ClassClick';
 import ParentComponent from './components/ParentComponent'
 import ParentComponent1 from './components/ParentComponent1';
+import Renderif from './components/Renderif';
+import Elementvar from './components/Elementvar';
+import Ternary from './components/Ternary';
+import Shortcircuit from './components/Shortcircuit';
+import Namelist from './Namelist';
+import Indexaskey from './components/Indexaskey';
+import Stylesheet from './components/Stylesheet';
 function App() {
   return (
     <div className='App'>
-    <ParentComponent1/>
+    < Stylesheet/>
     </div>
   );
 }
