@@ -23,10 +23,15 @@ import Shortcircuit from './components/Shortcircuit';
 import Namelist from './Namelist';
 import Indexaskey from './components/Indexaskey';
 import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import  './Style.css'
+import styles from './Styling.module.css'
 function App() {
   return (
     <div className='App'>
-    < Stylesheet/>
+    
+    <h1 className='error'>Error</h1>
+    <h1 className={styles.success}>Success</h1>
     </div>
   );
 }
