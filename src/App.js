@@ -26,12 +26,13 @@ import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import  './Style.css'
 import styles from './Styling.module.css'
+import Form from './components/Form';
+import LifeCycleA from './components/LifecycleA';
+import Lifecycleupdate from './components/Lifecycleupdate'
 function App() {
   return (
     <div className='App'>
-    
-    <h1 className='error'>Error</h1>
-    <h1 className={styles.success}>Success</h1>
+    <Lifecycleupdate/>
     </div>
   );
 }
