@@ -29,10 +29,15 @@ import styles from './Styling.module.css'
 import Form from './components/Form';
 import LifeCycleA from './components/LifecycleA';
 import Lifecycleupdate from './components/Lifecycleupdate'
+import Fragmentdemo from './components/Fragmentdemo';
+import Table from './components/Table';
+import ParentComponent2 from './components/ParentComponent2';
+import Refsdemo from './components/Refsdemo';
+import Focusinput from './components/Focusinput';
 function App() {
   return (
     <div className='App'>
-    <Lifecycleupdate/>
+    <Focusinput/>
     </div>
   );
 }
