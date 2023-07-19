@@ -34,10 +34,15 @@ import Table from './components/Table';
 import ParentComponent2 from './components/ParentComponent2';
 import Refsdemo from './components/Refsdemo';
 import Focusinput from './components/Focusinput';
+import Portaldemo from './components/Portaldemo';
+import Hero from './components/Hero';
+import Errorboundary from './components/Errorboundary';
+import Clickcounter from './components/Clickcounter';
+import Hovercounter from './components/Hovercounter';
 function App() {
   return (
     <div className='App'>
-    <Focusinput/>
+     <Hovercounter/>
     </div>
   );
 }
