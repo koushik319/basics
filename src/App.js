@@ -39,10 +39,17 @@ import Hero from './components/Hero';
 import Errorboundary from './components/Errorboundary';
 import Clickcounter from './components/Clickcounter';
 import Hovercounter from './components/Hovercounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import Count from './components/Count';
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/userContext';
 function App() {
   return (
     <div className='App'>
-     <Hovercounter/>
+      <UserProvider value="Nani">
+      <ComponentC/>
+      </UserProvider>
     </div>
   );
 }
